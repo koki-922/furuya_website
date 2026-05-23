@@ -1,2 +1,2 @@
 [tool.vercel]
-entrypoint = "run:app"
+entrypoint = "flaskr.__init__:app"
