@@ -1,2 +1,8 @@
+[project]
+name = "furuya-website"
+version = "0.1.0"
+description = "Flask book store management application"
+requires-python = ">=3.8"
+
 [tool.vercel]
-entrypoint = "flaskr.__init__:app"
+entrypoint = "api/index.py"
